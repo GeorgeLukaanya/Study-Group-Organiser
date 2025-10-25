@@ -1,0 +1,13 @@
+{
+  "buildCommand": "npm run build:client",
+  "outputDirectory": "dist/spa",
+  "installCommand": "npm install",
+  "env": {
+    "VITE_API_URL": "@vite_api_url"
+  },
+  "functions": {
+    "api/**/*.ts": {
+      "runtime": "nodejs20.x"
+    }
+  }
+}
