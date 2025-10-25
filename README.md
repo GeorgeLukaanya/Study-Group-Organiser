@@ -12,11 +12,11 @@ A web application to help organise, schedule, and manage study groups efficientl
 
 1. Install dependencies:
    ```bash
-   pnpm install
+   npm install
    ```
 2. Start the development server:
    ```bash
-   pnpm dev
+   npm dev
    ```
 
 ## Project Structure
